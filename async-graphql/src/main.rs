@@ -2,7 +2,10 @@ use actix_web::web::Data;
 use actix_web::{guard, web, App, HttpServer};
 use async_graphql::*;
 use async_graphql_actix_web::{GraphQLRequest, GraphQLResponse};
+use mimalloc::MiMalloc;
 
+#[global_allocator]
+static GLOBAL: MiMalloc = MiMalloc;
 struct Query;
 
 #[Object]

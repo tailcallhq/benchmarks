@@ -9,3 +9,4 @@ edition = "2021"
 async-graphql = "5.0"
 async-graphql-actix-web = "5.0"
 actix-web = { version = "4.4", features = ["macros"] }
+mimalloc = { version = "0.1.39", default-features = false }
