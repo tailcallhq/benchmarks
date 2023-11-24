@@ -2,9 +2,6 @@
   "name": "tailcall",
   "version": "1.0.0",
   "scripts": {
-    "main": "tailcall start ./main.graphql"
-  },
-  "dependencies": {
-    "@tailcallhq/tailcall": "^0.15.0"
+    "main": "tailcall start ./main.graphql --log-level error"
   }
 }
