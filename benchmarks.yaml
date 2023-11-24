@@ -206,9 +206,4 @@
   lang: Rust
   server: Hyper
   run:
-    cmd: tailcall
-    args:
-      - start
-      - ./main.graphql
-      - --log-level
-      - error
+    cmd: ls -l ./node_modules/@tailcallhq
