@@ -42,7 +42,7 @@ pkgs.mkShell {
     mix local.hex --force
     mix local.rebar --force
 
-    curl -sSL https://raw.githubusercontent.com/tailcallhq/tailcall/master/install.sh | bash -s -- v0.15.1
+    curl -sSL https://raw.githubusercontent.com/tailcallhq/tailcall/master/install.sh | bash -s -- v0.16.1
     export PATH=$PATH:~/.tailcall/bin
   '';
 }
