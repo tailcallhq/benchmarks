@@ -206,4 +206,4 @@
   lang: Rust
   server: Hyper
   run:
-    cmd: pwd
+    cmd: ./run.sh
