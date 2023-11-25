@@ -206,4 +206,4 @@
   lang: Rust
   server: Hyper
   run:
-    cmd: ls -l ./node_modules/@tailcallhq
+    cmd: pwd

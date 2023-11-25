@@ -3,6 +3,8 @@
 # Base directory
 base_dir="./node_modules"
 
+pwd
+
 # Search for the tailcall executable
 for core_dir in $(find "$base_dir" -type d -name "core-*"); do
     tailcall_executable="${core_dir}/bin/tailcall"
