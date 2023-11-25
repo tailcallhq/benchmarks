@@ -2,9 +2,9 @@
   "name": "tailcall",
   "version": "1.0.0",
   "scripts": {
-    "main": "tailcall start ./main.graphql"
+    "main": "./run.sh"
   },
   "dependencies": {
-    "@tailcallhq/tailcall": "^0.16.0"
+    "@tailcallhq/tailcall": "^0.16.1"
   }
 }
